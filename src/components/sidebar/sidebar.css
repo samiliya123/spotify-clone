@@ -1,0 +1,50 @@
+.sidebar{
+    flex: 0.2;
+    height: 100vh;
+    background-color: #0C090A;
+    color: antiquewhite;
+     margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+ }
+
+.sidebar__header-logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.sidebar__text{
+    padding: 15px;
+    font-size: medium;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+}
+
+.sidebar__logo{
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 80px;
+    width: 80px;
+
+}
+
+.sidebar__title{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.sidebar > hr{
+    width: 90%;
+    margin: 10px auto;
+    border: solid 1px #242424;
+}
+
+.sidebar__playlist{
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+    padding-left: 10px;
+}
